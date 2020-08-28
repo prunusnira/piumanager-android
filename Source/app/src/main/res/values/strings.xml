@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">PIU Clear Manager</string>
+
+    <!-- WebViewClient -->
+    <string name="txt_client_urlwarn">You can only access allowed web sites</string>
+
+    <!-- FileDownload -->
+    <string name="txt_dlg_fileop_title">Open File</string>
+    <string name="txt_dlg_fileop_notexist">File not found. Please save new user profile or copy backed up file as [userdata.dat]</string>
+
+    <string name="btn_txt_ok">OK</string>
+    <string name="btn_txt_cancel">Cancel</string>
+</resources>

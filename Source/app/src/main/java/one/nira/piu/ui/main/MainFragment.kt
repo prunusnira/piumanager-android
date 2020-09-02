@@ -71,6 +71,15 @@ class MainFragment : Fragment() {
             val bw = BufferedWriter(FileWriter(file))
             bw.write(dnString)
             bw.close()
+
+            val dlgBuilder: AlertDialog.Builder = AlertDialog.Builder(webView.context)
+            dlgBuilder.setTitle(R.string.txt_dlg_save_title)
+            dlgBuilder.setMessage(R.string.txt_dlg_save_cont)
+            dlgBuilder.setNeutralButton(R.string.btn_txt_ok,
+                DialogInterface.OnClickListener { dialogInterface, i ->
+                    dialogInterface.dismiss()
+                })
+            dlgBuilder.create().show()
         }
 
         webView.setOnKeyListener(View.OnKeyListener { view, i, keyEvent ->

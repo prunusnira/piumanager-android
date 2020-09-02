@@ -46,6 +46,15 @@ class BaseWebChromeClient(private val ctx: Context?): WebChromeClient() {
             br.close()
 
             webView?.loadUrl("javascript:callbackOpen('"+ s+"')")
+
+            val dlgBuilder: AlertDialog.Builder = AlertDialog.Builder(webView!!.context)
+            dlgBuilder.setTitle(R.string.txt_dlg_fileop_title)
+            dlgBuilder.setMessage(R.string.txt_dlg_fileop_done)
+            dlgBuilder.setNeutralButton(R.string.btn_txt_ok,
+                DialogInterface.OnClickListener { dialogInterface, i ->
+                    dialogInterface.dismiss()
+                })
+            dlgBuilder.create().show()
         }
 
         return true

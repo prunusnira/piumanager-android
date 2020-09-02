@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="txt_client_urlwarn">許可されたウェブサイトのみ接続できます</string>
+    <string name="txt_dlg_fileop_title">ファイルロード</string>
+    <string name="txt_dlg_fileop_notexist">
+        ファイルが見つかりませんでした。新しいプロフィールを作るか既存のバックアップをデバイスにコピーしてください。\n\n
+        経路: /Android/data/one.nira.piu/files/userdata.csv
+    </string>
+    <string name="txt_dlg_fileop_done">プロフィールをロードしました</string>
+    <string name="txt_dlg_save_title">ファイル保存</string>
+    <string name="txt_dlg_save_cont">ファイルを保存しました。</string>
+</resources>

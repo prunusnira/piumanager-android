@@ -99,6 +99,7 @@ class MainFragment : Fragment() {
             refresh.isRefreshing = false
         }
 
+        webView.clearCache(true)
         webView.loadUrl(Const.mainUrl)
 
         return v

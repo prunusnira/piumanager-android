@@ -1,7 +1,7 @@
 # PIU Clear Manager - Android App
 
 ## About
-* PIU Clear Manager[https://piu.nira.one]의 Android 앱입니다
+* PIU Clear Manager [ https://piu.nira.one ]의 Android 앱입니다
 
 ## Development
 * Kotlin으로 개발했습니다

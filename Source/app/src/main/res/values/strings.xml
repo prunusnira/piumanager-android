@@ -17,4 +17,11 @@
 
     <string name="btn_txt_ok" translatable="false">OK</string>
     <string name="btn_txt_cancel" translatable="false">Cancel</string>
+    <string name="action_backup">Backup</string>
+    <string name="noorigin_title">No origin file</string>
+    <string name="noorigin_body">Please create user data first</string>
+    <string name="complete_title">Backup complete</string>
+    <string name="complete_body">Please check Download folder</string>
+    <string name="permission_title">Permission required</string>
+    <string name="permission_body">Please add permission to access storage for backup</string>
 </resources>

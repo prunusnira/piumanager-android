@@ -1,28 +1,17 @@
 package one.nira.piu.ui.main
 
-import android.app.DownloadManager
-import android.content.Context
 import android.content.DialogInterface
-import android.content.Intent
-import android.net.Uri
 import android.os.Build
 import android.os.Bundle
-import android.os.Environment
-import android.util.Base64
 import android.view.KeyEvent
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.webkit.JavascriptInterface
-import android.webkit.WebChromeClient
 import android.webkit.WebSettings
 import android.webkit.WebView
-import android.widget.EditText
-import android.widget.Toast
 import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AlertDialog
-import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.lifecycle.ViewModelProvider
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout
 import one.nira.piu.R
@@ -32,7 +21,6 @@ import one.nira.piu.webview.BaseWebViewClient
 import java.io.BufferedWriter
 import java.io.File
 import java.io.FileWriter
-import java.net.URLDecoder
 
 class MainFragment : Fragment() {
 
@@ -95,7 +83,7 @@ class MainFragment : Fragment() {
 
         // 리프레시 설정
         refresh.setOnRefreshListener {
-            webView.reload()
+            //webView.reload()
             refresh.isRefreshing = false
         }
 

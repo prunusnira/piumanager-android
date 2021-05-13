@@ -1,11 +1,8 @@
 package one.nira.piu.webview
 
-import android.app.Activity
 import android.content.Context
 import android.content.DialogInterface
-import android.content.Intent
 import android.net.Uri
-import android.util.Base64
 import android.webkit.ValueCallback
 import android.webkit.WebChromeClient
 import android.webkit.WebView
@@ -15,8 +12,6 @@ import one.nira.piu.data.Const
 import java.io.BufferedReader
 import java.io.File
 import java.io.FileReader
-import java.net.URLDecoder
-import java.net.URLEncoder
 
 class BaseWebChromeClient(private val ctx: Context?): WebChromeClient() {
     override fun onShowFileChooser(
@@ -57,6 +52,7 @@ class BaseWebChromeClient(private val ctx: Context?): WebChromeClient() {
             dlgBuilder.create().show()
         }
 
+        filePathCallback?.onReceiveValue(null)
         return true
     }
 }

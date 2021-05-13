@@ -9,4 +9,11 @@
     <string name="txt_dlg_fileop_done">파일이 정상적으로 열렸습니다</string>
     <string name="txt_dlg_save_title">파일 저장</string>
     <string name="txt_dlg_save_cont">파일이 저장되었습니다</string>
+    <string name="action_backup">백업</string>
+    <string name="noorigin_title">원본 파일이 없습니다</string>
+    <string name="noorigin_body">백업을 하기 위해서는 사용자 정보를 만들어주세요</string>
+    <string name="complete_title">백업 완료</string>
+    <string name="complete_body">Download 폴더를 확인해주세요</string>
+    <string name="permission_title">권한 필요</string>
+    <string name="permission_body">백업을 수행하기 위해서는 스토리지 관련 권한이 필요합니다</string>
 </resources>
